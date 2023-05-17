@@ -1,0 +1,46 @@
+.course {
+  padding-top: 50px;
+  margin-left: 100px;
+
+  &__video {
+    img {
+      background-color: rgb(66, 64, 64);
+      border: black 1px solid;
+      max-width: 600px;
+      height: 300px;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+
+    p {
+      font-weight: bold;
+      font-size: 15px;
+    }
+  }
+
+  &__btns {
+    display: flex;
+    gap: 15px;
+    height: 40px;
+  }
+
+  &__btn1 {
+    color: rgb(60, 204, 168);
+    border: 1px solid rgb(60, 204, 168);
+    width: 130px;
+    border-radius: 5px;
+  }
+
+  &__btn2 {
+    background-color: rgb(60, 204, 168);
+    color: white;
+    border: none;
+    width: 170px;
+    border-radius: 5px;
+  }
+}

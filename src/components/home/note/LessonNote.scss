@@ -1,0 +1,46 @@
+.notes {
+  background-color: white;
+  max-width: 580px;
+  max-height: 800px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin-left: 100px;
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  input {
+    width: 550px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid rgb(235, 235, 235);
+  }
+
+  &__button {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin-top: 10px;
+
+    .btn1 {
+      height: 35px;
+      width: 130px;
+      border-radius: 5px;
+      color: rgb(60, 204, 168);
+      border: 1px solid rgb(60, 204, 168);
+      background-color: white;
+    }
+
+    .btn2 {
+      height: 35px;
+      width: 130px;
+      border-radius: 5px;
+      background-color: rgb(60, 204, 168);
+      border: none;
+      color: white;
+    }
+  }
+}
