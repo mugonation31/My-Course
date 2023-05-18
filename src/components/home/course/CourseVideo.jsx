@@ -1,11 +1,12 @@
 import React from "react";
 import "./CourseVideo.scss";
+import Video from "../../../assets/images/video.svg";
 
 export default function CourseVideo() {
   return (
     <div className="course">
       <div className="course__video">
-        <img src="" width="600px" alt="" />
+        <img src={Video} width="600px" alt="" />
       </div>
 
       <div className="course__actions">

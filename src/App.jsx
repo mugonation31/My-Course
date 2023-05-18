@@ -8,14 +8,14 @@ import "./App.scss";
 
 function App() {
   return (
-    <>
+    
       <LandingPage>
         <CourseVideo />
         <LessonNote />
         <AboutCourse />
         <ContentCourse />
       </LandingPage>
-    </>
+    
   );
 }
 
