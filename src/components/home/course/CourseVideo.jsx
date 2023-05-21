@@ -1,25 +1,17 @@
 import React from "react";
 import "./CourseVideo.scss";
-import Video from "../../../assets/images/video.svg";
 
 export default function CourseVideo() {
   return (
     <div className="course">
       <div className="course__video">
-        <img src={Video} width="600px" alt="" />
-      </div>
-
-      <div className="course__actions">
-        <div className="course__rate">
-          <p>Rate this course</p>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-        </div>
-        <div className="course__btns">
-          <button className="course__btn1">DownLoad File</button>
-          <button className="course__btn2">Complete & Continue</button>
-        </div>
+        <iframe
+          src="https://www.youtube.com/embed/TgT2r0T1IeM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
     </div>
   );

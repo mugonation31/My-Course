@@ -1,11 +1,12 @@
 .about {
   background-color: white;
-  max-width: 350px;
+  max-width: 400px;
   padding: 10px;
   border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 15px;
 
   &__course {
-    // border: 1px red dotted;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,6 +15,11 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 5px;
+
+    svg {
+      width: 14px;
+      font-weight: bold;
+    }
   }
 
   &__level {
@@ -24,18 +30,53 @@
     max-height: 20px;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
+
+    .img1 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      svg {
+        height: 15px;
+        width: 23px;
+        fill: green;
+      }
+    }
+
+    .img2 {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      svg {
+        height: 15px;
+        width: 23px;
+        fill: green;
+      }
+    }
+
+    .img3 {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      svg {
+        height: 15px;
+        width: 23px;
+        fill: green;
+      }
+    }
   }
 
   &__category {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 30px;
 
     margin-right: 60px;
 
     div {
-      border-radius: 10px;
-      padding: 4px;
+      border-radius: 15px;
+
+      padding: 8px;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 13px;
       border: 1px solid rgb(221, 218, 218);
@@ -46,16 +87,33 @@
     border-bottom: 1px solid rgb(221, 218, 218);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
-    padding: 15px;
+    padding-bottom: 13px;
   }
 
   &__instructor {
-    border: red dotted 1px;
+    display: flex;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    gap: 10px;
 
-    .name {
-      font-weight: bold;
+    img {
+      border-radius: 50%;
+      max-width: 30px;
+      height: 30px;
+    }
+
+    .details {
+      .name {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .skills {
+        color: rgb(177, 174, 174);
+        font-family: Arial, Helvetica, sans-serif;
+      }
     }
   }
 }
