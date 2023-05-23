@@ -65,4 +65,14 @@
       background-color: blue;
     }
   }
+
+  @media screen and (max-width: 1078px) {
+    .actions {
+      max-width: 580px;
+    }
+
+    .btn1 {
+      display: none;
+    }
+  }
 }
