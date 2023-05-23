@@ -59,4 +59,10 @@
     height: 13px;
     margin-left: 5px;
   }
+
+  @media only screen and (max-width: 1027) {
+    .actions {
+      background-color: blue;
+    }
+  }
 }

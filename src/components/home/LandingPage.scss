@@ -5,3 +5,11 @@
   height: 1000px;
   background-color: rgb(238, 234, 234);
 }
+
+@media only screen and (max-width: 1027px) {
+  .landing {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}

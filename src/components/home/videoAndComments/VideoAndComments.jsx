@@ -6,7 +6,7 @@ import LessonNote from "../note/LessonNote.jsx";
 
 export default function VideoAndComments() {
   return (
-    <div className="VideoAndComments">
+    <div className="videoAndComments">
       <CourseVideo />
       <RateAndButtons />
       <LessonNote />
