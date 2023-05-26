@@ -1,16 +1,11 @@
 .landing {
   display: flex;
-  max-width: 100%;
-  gap: 15px;
-  height: 1000px;
+  gap: 5px;
+  padding-top: 50px;
   background-color: rgb(238, 234, 234);
-}
 
-@media only screen and (max-width: 1027px) {
-  .landing {
-    display: flex;
+  @media only screen and (max-width: 1173px) {
     flex-direction: column;
-    height: 100%;
     max-width: 100%;
   }
 }

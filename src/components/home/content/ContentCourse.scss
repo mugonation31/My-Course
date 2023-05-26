@@ -1,6 +1,5 @@
 .content {
   background-color: white;
-  max-width: 400px;
   padding: 10px;
   border-radius: 10px;
 
@@ -32,7 +31,6 @@
 
         svg {
           width: 8px;
-          // font-weight: bold;
         }
       }
 
@@ -119,11 +117,5 @@
       width: 14px;
       font-weight: bold;
     }
-  }
-
-  @media screen and (max-width: 1078px) {
-    max-width: 580px;
-    margin-left: 35px;
-    margin-top: 0px;
   }
 }

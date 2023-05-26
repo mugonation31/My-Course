@@ -1,5 +1,16 @@
-.VideoAndComments {
-  border: red dotted 1px;
+.video_comments {
+  width: 700px;
+  margin-left: 35px;
 
-  
+  @media screen and (max-width: 756px) {
+    width: 600px;
+  }
+
+  @media screen and (max-width: 654px) {
+    width: 500px;
+  }
+
+  @media screen and (max-width: 553px) {
+    width: 400px;
+  }
 }

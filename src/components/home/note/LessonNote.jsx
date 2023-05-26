@@ -7,8 +7,8 @@ export default function LessonNote() {
       <p>Lesson note</p>
       <textarea type="text" placeholder="Type here" />
       <div className="notes__button">
-        <button className="btn1">Reset</button>
-        <button className="btn2">Save</button>
+        <button className="reset">Reset</button>
+        <button className="save">Save</button>
       </div>
     </div>
   );

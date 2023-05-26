@@ -1,1 +1,21 @@
+.about_content {
+  width: 400px;
+  margin-left: 35px;
 
+  @media screen and (max-width: 1173px) {
+    width: 700px;
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: 756px) {
+    width: 600px;
+  }
+
+  @media screen and (max-width: 654px) {
+    width: 500px;
+  }
+
+  @media screen and (max-width: 553px) {
+    width: 400px;
+  }
+}

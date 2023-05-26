@@ -1,10 +1,8 @@
 .notes {
   background-color: white;
-  max-width: 580px;
   max-height: 800px;
   padding: 20px 10px;
   border-radius: 10px;
-  margin-left: 35px;
 
   p {
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +11,8 @@
   }
 
   textarea {
-    width: 550px;
+    box-sizing: border-box;
+    width: 100%;
     height: 150px;
     padding: 10px;
     border-radius: 10px;
@@ -23,10 +22,9 @@
   &__button {
     display: flex;
     justify-content: space-between;
-    width: 550px;
     margin-top: 10px;
 
-    .btn1 {
+    .reset {
       height: 35px;
       width: 130px;
       border-radius: 5px;
@@ -35,7 +33,7 @@
       background-color: white;
     }
 
-    .btn2 {
+    .save {
       height: 35px;
       width: 130px;
       border-radius: 5px;
@@ -43,11 +41,5 @@
       border: none;
       color: white;
     }
-  }
-
-  @media screen and (max-width: 1078px) {
-    max-width: 580px;
-    margin-left: 35px;
-    margin-top: 0px;
   }
 }

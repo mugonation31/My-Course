@@ -5,7 +5,7 @@ import "./AboutAndContent.scss";
 
 export default function AboutAndContent() {
   return (
-    <div className="AboutandContent">
+    <div className="about_content">
       <AboutCourse />
       <ContentCourse />
     </div>

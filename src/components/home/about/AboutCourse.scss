@@ -1,9 +1,7 @@
 .about {
   background-color: white;
-  max-width: 400px;
   padding: 10px;
   border-radius: 10px;
-  margin-top: 50px;
   margin-bottom: 15px;
 
   &__course {
@@ -115,11 +113,5 @@
         font-family: Arial, Helvetica, sans-serif;
       }
     }
-  }
-
-  @media screen and (max-width: 1078px) {
-    max-width: 580px;
-    margin-left: 35px;
-    margin-top: 0px;
   }
 }

@@ -5,7 +5,6 @@
   max-width: 800px;
   padding: 20px 0 20px 0;
   height: 40px;
-  margin-left: 35px;
 
   .title {
     font-weight: bold;
@@ -43,6 +42,10 @@
     height: 13px;
     margin-left: 5px;
   }
+
+  @media screen and (max-width: 553px) {
+    display: none;
+  }
 }
 
 .btn2 {
@@ -58,21 +61,5 @@
   svg {
     height: 13px;
     margin-left: 5px;
-  }
-
-  @media only screen and (max-width: 1027) {
-    .actions {
-      background-color: blue;
-    }
-  }
-
-  @media screen and (max-width: 1078px) {
-    .actions {
-      max-width: 580px;
-    }
-
-    .btn1 {
-      display: none;
-    }
   }
 }
